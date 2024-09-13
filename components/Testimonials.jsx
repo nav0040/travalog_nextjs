@@ -57,11 +57,11 @@ const Testimonials = () => {
     return (
         <section id='testimonial'>
             <div className="img-container">
-                <Image src={img1} width={488} height={482} />
+                <Image src={img1} width={488} height={482} alt='image' />
             </div>
 
             <div className="slider">
-                <h2>Client's Reviews</h2>
+                <h2>Client&apos;s Reviews</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti nam similique enim? Facilis voluptate est laborum!</p>
 
 
@@ -88,6 +88,7 @@ const Testimonials = () => {
                                         <Image
                                             src={testimonial.avatar}
                                             width={100} height={100}
+                                            alt='image'
                                         />
                                     </div>
                                 </div>

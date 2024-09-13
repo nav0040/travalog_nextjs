@@ -26,6 +26,7 @@ const Subscribe = () => {
               src={img2}
               width={488}
               height={482}
+              alt='image'
             />
         </div>
     </section>

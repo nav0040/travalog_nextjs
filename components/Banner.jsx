@@ -43,7 +43,7 @@ const Banner = () => {
        </Swiper>
        <div className='box max-w-[650px] absolute top-[50%] left-0 translate-y-[-50%] mx-[50px] z-[1]'>
         <strong className='text-[#fefefe] flex items-center gap-4'>Explore The World <FaGlobeAmericas /></strong>
-        <h1 className='text-[3rem] font-[700] tracking-[1px] leading-[3.8rem] my-[10px] text-[#fff]'>It's a Big World Out There, Go Explore</h1>
+        <h1 className='text-[3rem] font-[700] tracking-[1px] leading-[3.8rem] my-[10px] text-[#fff]'>It&apos;s a Big World Out There, Go Explore</h1>
         <p className='text-[#fefefe] font-[0.9rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sapiente officiis rerum nostrum vero unde iste!</p>
         <Link href={'#'} className='w-[180px] h-[50px] text-[#333] bg-[#fff] flex justify-center items-center font-[600] rounded-[10px] mt-[25px] transition-all ease-[0.3s] hover:text-[#fff] hover:bg-[#333]'>Explore Now</Link>
        </div>
