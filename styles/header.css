@@ -1,0 +1,44 @@
+.logo{
+    color: var(--primary);
+}
+.active{
+    color: blue;
+}
+
+header nav .menu_btn{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--main);
+    display: none;
+    
+}
+
+/* Responsive */
+@media (max-width:650px) {
+    header nav{
+        justify-content: space-between;
+    }
+
+    header ul{
+        position: absolute;
+        top: 80%;
+        left: 0;
+        background: var(--bg-main);
+        display: block;
+        width: 100%;
+        box-shadow: 2px 20px 30px var(--shadow-color);
+        transition: all ease-in-out 0.3s;
+        height: 0;
+        overflow: hidden;
+    }
+
+    header ul li a{
+        display: block;
+        padding: 20px 15px;
+        border-bottom:1px solid var(--border-color);
+    }
+
+    header nav .menu_btn{
+        display: block;
+    }
+}
